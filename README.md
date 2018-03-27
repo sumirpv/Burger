@@ -1,8 +1,9 @@
 ## Delicious Burger
 
-##Live Link:
+## Live Link:
 https://afternoon-beach-69967.herokuapp.com/
 
+## Screen Shots:
 ![image](https://user-images.githubusercontent.com/26572619/37951099-117140c2-3150-11e8-92cd-258a1029e73f.png)
 
  ## Instruction: 
@@ -21,40 +22,5 @@ this app will store every burger in a database, whether devoured or not.
 * body-parser
 * Mysql
 * Express-Handlebars
-
-## Directory structure
-.
-├── config
-│   ├── connection.js
-│   └── orm.js
-│ 
-├── controllers
-│   └── burgers_controller.js
-│
-├── db
-│   ├── schema.sql
-│   └── seeds.sql
-│
-├── models
-│   └── burger.js
-│ 
-├── node_modules
-│ 
-├── package.json
-│
-├── public
-│   ├── assets
-│   │   ├── css
-│   │   │   └── burger_style.css
-│   │   └── img
-│   │       └── burger.png
-│   └── test.html
-│
-├── server.js
-│
-└── views
-    ├── index.handlebars
-    └── layouts
-        └── main.handlebars
 
 ![image](https://user-images.githubusercontent.com/26572619/37951130-308ff3f4-3150-11e8-96cc-456a0e10213e.png)
