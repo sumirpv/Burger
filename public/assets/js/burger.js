@@ -56,8 +56,21 @@ $(function() {
          location.reload();
        }
      );
-
     });
+//deleting all the devoured burger
+    $("#delete").on("click", function(event){
+      if( burgers.devoured == "0"){
+        var id=$(this).data("id");
+        $.ajax("/api/burgers/" + id, {
+          type : "DELETE"
+        }).then(
+          function(){
+            console.log("Deleted Burger",id);
+            location.reload();
+          }
+        );
+      }
+    })
 
   });
   
