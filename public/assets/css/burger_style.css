@@ -19,3 +19,9 @@ li {
   }
   
 
+body{
+  background-color: rgb(246,246,246);
+}
+#order{
+  margin-left: 40%;
+}
